@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+nav {
+    background-color: rgb(38, 140, 235);
+    height: 90px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.144);
+    position: fixed;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    float: left;
+    margin-left: 150px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px;
+    height: 100%;
+    border-bottom: 3px solid rgb(38, 140, 235);
+}
+
+nav a:hover {
+    border-bottom: 3px solid rgb(235, 150, 38);
+} 
+
+nav a.aktuell {
+    font-weight: bold;
+}
+
+.logo {
+    position: absolute;
+    height: 85px;
+    margin-left: 20px;
+    margin-top: 3px;
+    width: 105px;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1rem;
+}
+
+footer {
+    background-color: rgb(235, 150, 38);
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.7rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.projekt {
+    border: 6px;
+    border-radius: 4px;
+    margin: 0 2rem;
+    padding: 1rem;
+    border-color:rgb(235, 150, 38);
+    border-style: dotted;
+    width: 25rem;
+    height: 22rem;
+    font-size: 0.85rem;
+}
+
+.neben {
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+}
+
+img {
+    height: 600px;
+    width: 1439.5px;
+}
+
+.projektwahlstyle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1rem;
+}
+
+.projektbild {
+    width: auto;
+    height: auto;
+    max-width: 175px;
+    max-height: 175px;
+    min-height: 130px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1rem;
+}
+
+#mathebild {
+    height: 520px;
+    width: 570px;
+}
+
+.wahlliste {
+    margin-left: 2rem;
+}
+
+button {
+    height: 45px;
+    width: 100px;
+    background-color:rgb(38, 140, 235);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.75rem;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(235, 150, 38);
+}
+
+.loginform {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1rem;
+    margin-right: 40rem;
+}
+
+fieldset {
+    border: 0cm;
+}
